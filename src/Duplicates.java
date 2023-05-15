@@ -12,18 +12,18 @@ public class Duplicates {
         }
 
         // print out the arrays
-        System.out.println("Array 1:");
+        System.out.println("\nArray 1:");
         for (int i = 0; i < 10; i++) {
             System.out.println(array1[i]);
         }
 
-        System.out.println("Array 2:");
+        System.out.println("\nArray 2:");
         for (int i = 0; i < 10; i++) {
             System.out.println(array2[i]);
         }
 
         // find and print any duplicated values
-        System.out.println("Duplicated values:");
+        System.out.println("\nDuplicated values:");
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 if (i != j && array1[i] == array2[j]) {
