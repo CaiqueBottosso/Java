@@ -5,7 +5,7 @@ public class JavaIO {
     public static void main(String[] args) {
         // to handle errors, we use try-catch block
         try {
-            File obj = new File("Courses to make .txt");
+            File obj = new File("Courses to make.txt");
             if (obj.createNewFile()){
                 System.out.println("File created");
             } else {
